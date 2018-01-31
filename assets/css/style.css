@@ -1,0 +1,99 @@
+body {
+    color: #777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #ccc;
+}
+
+/* header */
+header {
+    background-color: #fff;
+    border: 1px solid #000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: solid 3px #ccc;
+    background-color: #fff;
+}
+
+.header_wrapper {
+    width: 960px;
+    position: relative;
+    height: auto;
+    
+    padding: 30px;
+}
+.brand {
+    height: 100%;
+    color: #fff;
+    background-color: #4aaaa5;
+    width: 30%;
+   
+}
+
+header a {
+    color: #666;
+    text-decoration: none;
+}
+
+nav {
+    float: right;
+    top: 0;
+    right 0;
+    background-color: #fff;
+    width: 30%;
+}
+
+/*main*/
+.main {
+    margin: 150px 0px 0px 50px;
+    
+}
+
+.about {
+    float: left;
+    margin-left: 0px;
+    width: 60%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.contact {
+    float: right;
+    margin-right: 50px;
+    width: 30%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+section div {
+    margin: 20px;
+    width: 90%;
+    display: block;
+}
+
+hr {
+    margin: 10px 0px 25px 0px;
+}
+
+h1 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+/*footer*/
+footer {
+    text-align: center;
+    border-top: solid 5px #4aaaa5;
+    color: #fff;
+    background-color: #666;
+    padding: 20px 0px 20px 0px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+/*misc*/
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
