@@ -7,24 +7,22 @@ body {
 /* header */
 header {
     background-color: #fff;
-    border: 1px solid #000;
-    top: 0;
-    left: 0;
     width: 100%;
     border-bottom: solid 3px #ccc;
-    background-color: #fff;
 }
 
 .header_wrapper {
     width: 960px;
-    position: relative;
-    height: auto;
-    
+    text-align: center;
     padding: 30px;
+    border: 1px solid #000;
+    margin: 0 auto;
 }
 .brand {
-    height: 100%;
+    top: 0;
+    left: 0;
     color: #fff;
+    height: 100%;
     background-color: #4aaaa5;
     width: 30%;
    
